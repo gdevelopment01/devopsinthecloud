@@ -228,7 +228,7 @@
 		  "# Build environment using Puppet\n",
           "puppet apply --modulepath=/home/ec2-user/modules /home/ec2-user/nodes.pp\n",
 
-                  "gem install passenger",
+                  "gem install passenger\n",
 		  "# Add in virtual hosts config\n",
 		  "cat /etc/httpd/conf/passenger >> /etc/httpd/conf/httpd.conf\n",
 		  "cat /etc/httpd/conf/virtualhosts >> /etc/httpd/conf/httpd.conf\n",
