@@ -132,7 +132,16 @@
           "config" : {
             "packages" : {
               "yum" : {
-                "puppet"   : []
+                "puppet"   : [],
+                "git"					: [],
+        "make"					: [],
+        "gcc"					: [],
+        "sqlite-devel"			: [],
+        "libxml2-devel"			: [],
+        "libxslt-devel"			: [],
+        "libyaml-devel"			: [],
+        "mysql-devel"       : [],
+        "mysql-server"      : []
               }
             },
 
