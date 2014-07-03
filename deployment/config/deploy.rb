@@ -47,11 +47,11 @@ namespace :deploy do
   end
   
   task :bundle_install do
-    run "cd #{deploy_to} && bundle install"
+    run "cd #{deploy_to} && sudo env PATH=$PATH bundle install"
   end
   
   task :db_migrate do
-    run "cd #{deploy_to} && sudo rake db:migrate"
+    run "cd #{deploy_to} && sudo env PATH=$PATH rake db:migrate"
   end
   
   task :start, :roles => :app do
