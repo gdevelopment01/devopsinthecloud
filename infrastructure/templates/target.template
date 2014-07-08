@@ -31,7 +31,7 @@
 	"HostedZone" : {
 	  "Description" : "Domain to use",
 	  "Type" : "String",
-	  "Default" : "devopscloud.com"
+	  "Default" : "dynamictestenvironment.com"
 	},
 
 	"EnvironmentType" : {
@@ -43,14 +43,14 @@
 	"PrivateBucket" : {
       "Description" : "S3 bucket for storing credentials",
       "Type" : "String",
-      "Default" : "stelligentlabs-private",
+      "Default" : "ditcgcreds",
       "ConstraintDescription" : "Must be a valid S3 Bucket"
     },
 
 	"PublicBucket" : {
 	  "Description" : "S3 bucket for storing build artifacts",
       "Type" : "String",
-      "Default" : "stelligentlabs",
+      "Default" : "ditcgartifacts",
       "ConstraintDescription" : "Must be a valid S3 Bucket"
 	}
   },
